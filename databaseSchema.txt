@@ -1,0 +1,25 @@
+"shoes"
+--
+id varchar(10) PK
+name varchar(255)
+last_updated datetime
+gender varchar(50)
+price float
+status varchar(50)
+pic varchar(255)
+pagelink varchar(255)
+release_day int
+release_month int
+release_time varchar(5)
+timezone varchar(5)
+active tinyint(1)
+
+
+"size_and_stock"
+--
+sku_id varchar(36) PK
+nik_size float
+loc_size float
+stock_level varchar(10)
+id varchar(10) FK
+row_id int
